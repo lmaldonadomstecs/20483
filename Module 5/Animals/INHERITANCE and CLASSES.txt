@@ -1,0 +1,29 @@
+1. INHERITANCE isn't perfect.
+    Because you can only inherit from one base class.
+2. Classes can set a Destructor / Finalizer
+3. Classses are Reference Type.
+
+SWAP two numbers
+
+
+STRUCTS
+1. Structs can't inherit
+2. Structs cannot have a default constructor (empty constructor).
+3. Structs cannot define a destructor
+4. Structs don't need to instantiate a new object.
+5. Structs allows you to create Compound variables
+6. Can copy another object's values.
+7. You cannot use optional/default parameters in structs.
+8. You cannot initialize an array inside a struct.
+
+
+
+1. Create a new Interface for all the individual pets.
+2. Create 3 new pets
+3. Assign some fields or methods in the new interface.
+4. Implement the contract in the classes.
+
+
+
+
+

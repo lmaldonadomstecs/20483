@@ -1,0 +1,29 @@
+using System;
+
+namespace Zoo
+{
+    struct Zoo
+    {
+        #region Fields
+        public string brand;
+        int animalCount;
+        float coordinateX;
+        float coordinateY;
+        #endregion
+
+        #region Constructor
+        public Zoo (string brand, int animalCount, float coordinateX, float coordinateY) {
+            this.brand = brand;
+            this.animalCount = animalCount;
+            this.coordinateX = coordinateX;
+            this.coordinateY = coordinateY;
+        }
+        #endregion
+
+        #region Methods
+        public void welcomeVisitors() {
+            Console.WriteLine("Welcome visitors!");
+        }
+        #endregion
+    }
+}
