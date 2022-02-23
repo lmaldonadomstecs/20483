@@ -3,9 +3,9 @@ using System;
 namespace Zoo
 {
     // Derived class
-    abstract class ListOfContextClass : DbContext
+    abstract class Pet : Animal
     {
-        public ListOfContextClass () : base() {
+        public Pet () {
             
         }
         protected string name;

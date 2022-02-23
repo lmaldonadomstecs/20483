@@ -10,8 +10,7 @@ namespace Zoo
         Good,
         Sick
     }
-
-
+    
     struct Address {
         public string street;
         public string streetNumber;
@@ -21,7 +20,7 @@ namespace Zoo
     }
 
     // Base class
-    abstract class DbContext
+    abstract class Animal
     {
         private livingState livingState;
         private healthState healthState;
