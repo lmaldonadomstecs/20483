@@ -15,6 +15,10 @@ namespace Zoo
             
         }
 
+        public override void communicate()
+        {
+            
+        }
 
         public override int strenght()
         {

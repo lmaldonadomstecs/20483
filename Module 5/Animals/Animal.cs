@@ -10,7 +10,7 @@ namespace Zoo
         Good,
         Sick
     }
-    
+
     struct Address {
         public string street;
         public string streetNumber;
